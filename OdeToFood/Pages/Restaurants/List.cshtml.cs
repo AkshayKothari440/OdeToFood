@@ -19,7 +19,7 @@ namespace OdeToFood.Pages.Restaurants
 
         public string Message { get; set; }
         public IEnumerable<Restaurant> Restaurants { get; set; }
-        [BindProperty(SupportsGet =true)] // Use kro k na kro chale
+        [BindProperty(SupportsGet =true)] 
         public string SearchTerm { get; set; } //Add 1
         public ListModel(IConfiguration config,IRestaurantData restaurantData,
             ILogger<ListModel> logger) /*Fetch the restorent(Iresturantdata restaurantdata)*/

@@ -30,8 +30,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-page="/Index">Home</a></li>
-                    <li><a asp-page="/Restaurants/List">Restaurants</a></li>  @*Ad by AK*@
+                    <li><a asp-page="/Index"><img src="~/Header/s8.jpg" />Home</a></li>
+                    <li><a asp-page="/Restaurants/List"><img src="~/Header/s6.jpg"/>Restaurants</a></li>  @*Ad by AK*@
                     <li><a asp-page="/About">About</a></li>
                     <li><a asp-page="/Contact">Contact</a></li>
                     
@@ -48,8 +48,7 @@
         <footer>
             <vc:restaurant-count></vc:restaurant-count>
             @RenderSection("footer",required:false)
-            <p>&copy; 2019 - OdeToFood</p>
-            <img src="~/logo1.png"/>
+             <img src="~/logo2.png"/>
         </footer>
     </div>
 

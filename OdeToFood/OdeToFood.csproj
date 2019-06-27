@@ -20,4 +20,8 @@
     <ProjectReference Include="..\OdeToFood.Data\OdeToFood.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Header\" />
+  </ItemGroup>
+
 </Project>

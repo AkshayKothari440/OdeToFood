@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace OdeToFood.Core
 {
@@ -10,5 +11,6 @@ namespace OdeToFood.Core
         [Required, StringLength(80)]
         public string Location { get; set; }
         public CuisineType Cuisine { get; set; }
+        //public List<Menu> Menus { get; set; }
     }
 }
